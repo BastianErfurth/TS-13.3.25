@@ -1,3 +1,5 @@
+// Aufgabe 2
+
 int numberOfTextCharakters(String text) {
   return text.length;
 }

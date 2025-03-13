@@ -1,3 +1,5 @@
+// Aufgabe 3
+
 int numberOfVokaleInText(String text) {
   int counter = 0;
   for (int i = 0; i < text.length; i++) {
@@ -32,4 +34,5 @@ void main() {
   print(numberOfVokaleInText("mega gut"));
   print(numberOfVokaleInText("Affengehege"));
   print(numberOfVokaleInText("Batch 9 rockt!"));
+  print(numberOfVokaleInText("Ungeheuer"));
 }

@@ -1,12 +1,10 @@
+// Aufgabe 1
+
 int sumOfTwoNumbers(int number1, int number2) {
   return number1 + number2;
 }
 
 void main() {
-  sumOfTwoNumbers(2, 6);
-  sumOfTwoNumbers(17, 23);
-  sumOfTwoNumbers(112, 88);
-
   int result1 = sumOfTwoNumbers(2, 6);
   print(result1);
   int result2 = sumOfTwoNumbers(17, 23);
