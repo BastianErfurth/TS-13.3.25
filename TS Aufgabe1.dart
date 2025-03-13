@@ -1,14 +1,11 @@
 // Aufgabe 1
 
-int sumOfTwoNumbers(int number1, int number2) {
-  return number1 + number2;
+int sumOfTwoNumbers(int number1, int number2, int number3) {
+  return number1 + number2 + number3;
 }
 
 void main() {
-  int result1 = sumOfTwoNumbers(2, 6);
-  print(result1);
-  int result2 = sumOfTwoNumbers(17, 23);
-  print(result2);
-  int result3 = sumOfTwoNumbers(112, 88);
-  print(result3);
+  print(sumOfTwoNumbers(2, 6, 8));
+  print(sumOfTwoNumbers(17, 23, 4));
+  print(sumOfTwoNumbers(112, 88, 17));
 }
