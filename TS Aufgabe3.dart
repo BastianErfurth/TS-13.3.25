@@ -23,8 +23,21 @@ int numberOfVokaleInText(String text) {
       counter++;
     } else if (text[i] == "U") {
       counter++;
+    } else if (text[i] == "ä") {
+      counter++;
+    } else if (text[i] == "ö") {
+      counter++;
+    } else if (text[i] == "ü") {
+      counter++;
+    } else if (text[i] == "Ä") {
+      counter++;
+    } else if (text[i] == "Ö") {
+      counter++;
+    } else if (text[i] == "Ü") {
+      counter++;
     } else
       ;
+    ;
   }
   return counter;
 }
