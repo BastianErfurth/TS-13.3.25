@@ -1,5 +1,5 @@
-int counter = 0;
 int numberOfVokaleInText(String text) {
+  int counter = 0;
   for (int i = 0; i < text.length; i++) {
     if (text[i] == "a") {
       counter++;
@@ -29,8 +29,7 @@ int numberOfVokaleInText(String text) {
 
 void main() {
   print(numberOfVokaleInText("super"));
-
   print(numberOfVokaleInText("mega gut"));
-
   print(numberOfVokaleInText("Affengehege"));
+  print(numberOfVokaleInText("Batch 9 rockt!"));
 }
